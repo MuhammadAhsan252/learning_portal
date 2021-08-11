@@ -1,0 +1,61 @@
+.hovering .card {
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-bottom: 15%;
+  padding-top: 15%;
+}
+
+.hovering .card-title{
+  margin-bottom: 10%;
+  font-family: "Sen",sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 21px;
+  color: #250051;
+  display: block;
+}
+
+.hovering .card-text{
+  margin-bottom: 36px;
+  color: #57667e;
+  font-size: 16px;
+}
+
+.hovering .card-body a{
+  color: #5d6072;
+  font-size: 16px;
+  font-weight: 400;
+  text-decoration: none !important;
+}
+
+.hovering .card:hover{
+	color: white !important;
+	background-color: #2d3092!important;
+
+    transform: scale(1.05);
+    transition: all .4s ease-out 0s;
+}
+
+.hovering .svg-inline--fa{
+	color: #2d3092;
+	font-size: xx-large;
+  margin-bottom: 10%;
+}
+
+.hovering .card:hover .svg-inline--fa{
+	color: white;
+}
+.hovering .card:hover .card-body a{
+	color: white;
+}
+.hovering .card:hover .card-title{
+  color: white;
+}
+
+.hovering .card:hover .card-text {
+  color: white;
+}
+.hovering .card:hover img{
+	color: white;
+}
+

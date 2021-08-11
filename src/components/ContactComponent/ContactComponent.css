@@ -1,0 +1,66 @@
+.contact{
+  margin-bottom: 10%;
+}
+
+.contact .form-control{
+  margin-bottom: 5%;
+}
+
+.contact h2{
+  font-family: Sen, sans-serif;
+  color: rgb(3, 4, 49);
+  margin-top: 0px;
+  font-style: normal;
+  font-size: 27px;
+  font-weight: 600;
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+.contact .btn{
+    background: rgb(255, 255, 255);
+    display: inline-block;
+    padding: 18px 44px;
+    font-family: Sen, sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    border: 1px solid rgb(45, 48, 146);
+    letter-spacing: 3px;
+    text-align: center;
+    text-transform: uppercase;
+    cursor: pointer;
+    color: rgb(45, 48, 146) !important;
+    transition: all 0.3s ease-out 0s;
+    border-radius: 0;
+}
+
+.contact .btn:hover {
+  background: #2d3092;
+  color: white !important;
+}
+
+
+.contact .svg-inline--fa{
+  color: rgb(138, 138, 138); 
+  font-size: x-large;
+  margin-right: 5%;
+}
+
+.contact h3{
+  display: inline-block;
+    margin-bottom: 0px;
+    font-size: 16px;
+    color: rgb(42, 42, 42);
+}
+
+.contact p{
+    margin-bottom: 10%;
+    font-size: 16px;
+    color: rgb(138, 138, 138);  
+    margin-left: 15%;
+}
+.contact-side{
+    margin: 10%;
+    margin-left: 20%;
+    margin-top: 20%;
+}

@@ -1,0 +1,55 @@
+.carousel-comp{
+  background-image: url(../images/background_22.png);
+  height: 500px;
+}
+
+.carousel-component{
+  margin-top: 20%;
+}
+
+.carousel-component span{
+    font-size: 16px;
+    line-height: 1.2;
+    font-weight: 500;
+    color: rgb(45, 48, 146);
+    margin-bottom: 44px;
+    display: inline-block;
+}
+
+.carousel-component h1{
+    font-family: Sen, sans-serif;
+    color: rgb(3, 4, 49);
+    margin-top: 0px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.2;
+    margin-bottom: 51px;
+}
+
+.carousel-component .btn{
+    background: rgb(45, 48, 146);
+    padding: 27px 44px;
+    color: rgb(255, 255, 255);
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 0px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    line-height: 0;
+    cursor: pointer;
+    transition: color 0.4s linear 0s;
+    position: relative;
+    z-index: 1;
+    border: 0px;
+    overflow: hidden;
+    margin: 0px;
+}
+
+@media (max-width: 770px){
+  .carousel-comp{
+    display: none;
+  }
+  .carousel-component{
+    margin-bottom: 10%;
+  }
+}

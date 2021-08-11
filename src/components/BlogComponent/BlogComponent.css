@@ -1,0 +1,40 @@
+.Blog .container{
+	padding: 5%;
+	max-width: 100% !important;
+	height: auto;
+}
+
+.Blog h2{
+    font-size: 42px !important;
+    display: block !important;
+    font-weight: 600 !important;
+    margin-bottom: 17px !important;
+    line-height: 1.3 !important;
+    text-align: center;
+}
+
+.Blog span{
+  font-size: 16px;
+  font-weight: 500;
+  margin-bottom: 22px;
+  color: #3bffdc;
+  display: inline-block;
+  font-family: "Josefin Sans",sans-serif;
+  text-align: center;
+}
+
+.blog_button{
+	text-align: center;
+	padding-top: 5%;
+	padding-bottom: 5%;
+}
+.blog_button .btn{
+	background-color: white;
+	color: black;
+	border-radius: 0 !important;
+}
+
+.blog_button .btn:hover{
+	background-color: black;
+	color: white;
+}

@@ -1,0 +1,21 @@
+.about-container p{
+  padding-left: 15%;
+  padding-right: 15%;
+  line-height: 30px;
+  margin-bottom: 45px;
+  font-weight: normal;
+  color: #464d65;
+  font-size: 16px;
+}
+
+
+.about-container h4{
+  text-align: left;
+  padding-left: 15%;
+  font-size: 30px;
+  font-family: "Sen",sans-serif;
+  font-weight: 700;
+  margin-bottom: 30px;
+  color: #000a2d;
+  display: inline-block;
+}

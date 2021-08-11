@@ -1,0 +1,64 @@
+.course .card:hover{
+    transform: scale(1.05);
+    transition: all .4s ease-out 0s;
+    width: 100%;
+}
+
+.course .right{
+	position: absolute;
+	right: 10%;
+}
+
+.course .font_margin{
+	margin-left: 2%;
+    margin-right: 5%;
+}
+.course .block{
+
+    display: inline-block;
+    background-color: #2d3092;
+    padding-right: 20px;
+    padding-left: 20px;
+    color: white;
+    padding-top: 10px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+
+}
+
+.course .card-img-overlay{
+    position: relative !important;
+    padding: 0 !important;
+}
+
+.course .instructor h3{
+    font-family: "Sen",sans-serif;
+    color: #030431;
+    margin-top: 0;
+    font-style: normal;
+    font-weight: 500;
+    margin-bottom: 3px;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.course a{
+    color: #33384e !important ;
+    font-weight: 700 !important;
+    text-align: center;
+    text-decoration: none !important;
+}
+.course .instructor p{
+    text-align: center;
+    color: #57667e;
+}
+
+
+.course h4{
+    color: #250051;
+    font-size: 30px;
+    line-height: 1.1;
+    margin-bottom: 37px;
+    display: block;
+}
